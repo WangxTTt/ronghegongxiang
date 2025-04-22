@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>短信位置</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="56" height="56"></rect>
+        <linearGradient x1="1.42108547e-12%" y1="44.3225608%" x2="100%" y2="44.3225608%" id="linearGradient-3">
+            <stop stop-color="#84A6FF" stop-opacity="0.216794314" offset="0%"></stop>
+            <stop stop-color="#668CF3" stop-opacity="0.0601473722" offset="33.5334827%"></stop>
+            <stop stop-color="#416EE5" stop-opacity="0.064727143" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.8750445%" y1="50%" x2="58.2004482%" y2="40.0964776%" id="linearGradient-4">
+            <stop stop-color="#84A6FF" stop-opacity="0.0401261336" offset="0%"></stop>
+            <stop stop-color="#416EE5" stop-opacity="0.123990146" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.885309%" y1="6.49727783%" x2="69.9226344%" y2="84.5675243%" id="linearGradient-5">
+            <stop stop-color="#DDE6FF" offset="0%"></stop>
+            <stop stop-color="#1958FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="45.467252 4 14 16.6812438 23.8355954 23.7630472 36.1366936 13.8815236 26.1281401 25.5188986 26.1281401 31.5717387 29.733626 27.5665328 38.2502178 33.3516171"></polygon>
+        <filter x="-6.4%" y="-6.8%" width="112.7%" height="113.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.974858279   0 0 0 0 0.974858279  0 0 0 0.26079682 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.179169671   0 0 0 0 0.339749648   0 0 0 0 0.765414031  0 0 0 0.322095751 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="86.0095426%" y1="50%" x2="2.84217094e-12%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#84A6FF" stop-opacity="0.142800925" offset="0%"></stop>
+            <stop stop-color="#416EE5" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="开发生态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-494.000000, -118.000000)">
+            <g id="编组-22" transform="translate(149.000000, 78.000000)">
+                <g id="编组-15备份" transform="translate(305.000000, 0.000000)">
+                    <g id="短信位置" transform="translate(40.000000, 40.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-28" mask="url(#mask-2)">
+                            <g transform="translate(-2.000000, 3.000000)">
+                                <circle id="椭圆形" fill="url(#linearGradient-3)" fill-rule="evenodd" transform="translate(28.972254, 25.500000) rotate(90.000000) translate(-28.972254, -25.500000) " cx="28.972254" cy="25.5" r="25.5"></circle>
+                                <ellipse id="椭圆形" fill="url(#linearGradient-4)" fill-rule="evenodd" transform="translate(29.028302, 26.500000) rotate(111.000000) translate(-29.028302, -26.500000) " cx="29.0283019" cy="26.5" rx="12.0283019" ry="25.5"></ellipse>
+                                <g id="路径-10" fill="none">
+                                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                </g>
+                                <path d="M23.665648,59 C27.2554989,59 30,50.2337637 30,39.332839 C30,28.4319142 27.0510004,20 23.4611496,20 C19.8712987,20 17,28.4319142 17,39.332839 C17,50.2337637 20.0757971,59 23.665648,59 Z" id="椭圆形" fill="url(#linearGradient-8)" fill-rule="evenodd" transform="translate(23.500000, 39.500000) rotate(113.000000) translate(-23.500000, -39.500000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>金牌级</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.49651605%" x2="50%" y2="99.0276525%" id="linearGradient-1">
+            <stop stop-color="#FCE59E" offset="0%"></stop>
+            <stop stop-color="#DEB458" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="30.5912944%" x2="50%" y2="99.0276525%" id="linearGradient-2">
+            <stop stop-color="#FCE59E" offset="0%"></stop>
+            <stop stop-color="#DEB458" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.0900549%" x2="50%" y2="30.3935171%" id="linearGradient-3">
+            <stop stop-color="#FFEAA0" offset="0%"></stop>
+            <stop stop-color="#FBE18F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FBDD89" offset="0%"></stop>
+            <stop stop-color="#FEFFD4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#E0A93D" offset="0%"></stop>
+            <stop stop-color="#FFEEB8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#E0A93D" offset="0%"></stop>
+            <stop stop-color="#FFEEB8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0.929054054%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#BF9325" offset="0%"></stop>
+            <stop stop-color="#FFF1C5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合作伙伴-悬停" transform="translate(-920.000000, -671.000000)" fill-rule="nonzero">
+            <g id="金牌级" transform="translate(920.000000, 671.000000)">
+                <path d="M14,0.5 C6.54415588,0.5 0.5,6.54415588 0.5,14 C0.5,21.4558441 6.54415588,27.5 14,27.5 C21.4558441,27.5 27.5,21.4558441 27.5,14 C27.5,6.54415588 21.4558441,0.5 14,0.5 Z" id="椭圆形" fill="url(#linearGradient-1)"></path>
+                <g id="钻石@2x" transform="translate(3.000000, 3.000000)">
+                    <path d="M11,0.5 C16.7989899,0.5 21.5,5.20101013 21.5,11 C21.5,16.7989899 16.7989899,21.5 11,21.5 C5.20101013,21.5 0.5,16.7989899 0.5,11 C0.5,5.20101013 5.20101013,0.5 11,0.5 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                    <path d="M4.39555556,9.16888889 L7.28444444,6.24444444 C7.3675873,6.15961971 7.48122404,6.11160418 7.6,6.11111111 L14.4088889,6.11111111 C14.5276648,6.11160419 14.6413016,6.15961971 14.7244444,6.24444444 L17.6133333,9.16888889 C17.7744522,9.33201408 17.7850399,9.5909311 17.6377778,9.76666667 L11.1711111,17.4644444 C11.1331177,17.5095636 11.0787448,17.5377267 11.0199722,17.5427286 C10.9611995,17.5477305 10.9028495,17.5291609 10.8577778,17.4911111 L10.8288889,17.4644444 L4.37111111,9.76666667 C4.22384896,9.5909311 4.23443665,9.33201408 4.39555556,9.16888889 Z" id="路径" fill="url(#linearGradient-3)"></path>
+                    <polygon id="路径" fill="#FFF9DA" points="11 6.11111111 7.88888889 9.44444444 14.1111111 9.44444444"></polygon>
+                    <polygon id="路径" fill="url(#linearGradient-4)" points="7.88888889 9.44444444 11 18.1111111 14.1111111 9.44444444"></polygon>
+                    <polygon id="路径" fill="url(#linearGradient-5)" points="14.1111111 9.44444444 18.2577778 9.44444444 11 18.1111111 14.1111111 9.44444444"></polygon>
+                    <polygon id="路径" fill="url(#linearGradient-6)" points="7.88888889 9.44444444 3.88888889 9.44444444 11 18.1111111"></polygon>
+                </g>
+                <path d="M14,2.88888889 C7.86350278,2.88888889 2.88888889,7.86350278 2.88888889,14 C2.88888889,20.1364972 7.86350278,25.1111111 14,25.1111111 C20.1364972,25.1111111 25.1111111,20.1364972 25.1111111,14 C25.1111111,7.86350278 20.1364972,2.88888889 14,2.88888889 Z M14,3.77777778 C19.6455774,3.77777778 24.2222222,8.35442256 24.2222222,14 C24.2222222,19.6455774 19.6455774,24.2222222 14,24.2222222 C8.35442256,24.2222222 3.77777778,19.6455774 3.77777778,14 C3.77777778,8.35442256 8.35442256,3.77777778 14,3.77777778 Z" id="椭圆形" fill="url(#linearGradient-7)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

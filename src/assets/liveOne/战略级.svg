@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>战略级</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A0A0A0" offset="0%"></stop>
+            <stop stop-color="#535353" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#535353" offset="0%"></stop>
+            <stop stop-color="#AFAFAF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FCFBFA" offset="0%"></stop>
+            <stop stop-color="#FFDD88" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFDD88" offset="0%"></stop>
+            <stop stop-color="#F8EDBD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合作伙伴-悬停" transform="translate(-382.000000, -636.000000)" fill-rule="nonzero">
+            <g id="战略级" transform="translate(382.000000, 636.000000)">
+                <path d="M14,0.5 C6.54415588,0.5 0.5,6.54415588 0.5,14 C0.5,21.4558441 6.54415588,27.5 14,27.5 C21.4558441,27.5 27.5,21.4558441 27.5,14 C27.5,6.54415588 21.4558441,0.5 14,0.5 Z" id="椭圆形" fill="url(#linearGradient-1)"></path>
+                <path d="M14,3.5 C19.7989899,3.5 24.5,8.20101013 24.5,14 C24.5,19.7989899 19.7989899,24.5 14,24.5 C8.20101013,24.5 3.5,19.7989899 3.5,14 C3.5,8.20101013 8.20101013,3.5 14,3.5 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <path d="M14,2.88888889 C7.86350278,2.88888889 2.88888889,7.86350278 2.88888889,14 C2.88888889,20.1364972 7.86350278,25.1111111 14,25.1111111 C20.1364972,25.1111111 25.1111111,20.1364972 25.1111111,14 C25.1111111,7.86350278 20.1364972,2.88888889 14,2.88888889 Z M14,3.77777778 C19.6455774,3.77777778 24.2222222,8.35442256 24.2222222,14 C24.2222222,19.6455774 19.6455774,24.2222222 14,24.2222222 C8.35442256,24.2222222 3.77777778,19.6455774 3.77777778,14 C3.77777778,8.35442256 8.35442256,3.77777778 14,3.77777778 Z" id="椭圆形" fill="url(#linearGradient-2)"></path>
+                <g id="皇冠" transform="translate(6.333333, 7.222222)">
+                    <polygon id="形状" fill="url(#linearGradient-3)" points="10.239 5.733 7.66666667 0.426964974 5.093 5.733 0.658213271 1.72964828 2.11557801 12.25 13.2177553 12.25 14.6751201 1.72964828"></polygon>
+                    <polygon id="路径" fill="url(#linearGradient-4)" points="5.25300039 6.55122172 7.666 1.573 10.0803329 6.55122172 13.991 3.02 12.782 11.749 2.55 11.749 1.341 3.019"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

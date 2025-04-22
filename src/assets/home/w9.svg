@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>移动门户服务</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#366FFF" stop-opacity="0.290830385" offset="0%"></stop>
+            <stop stop-color="#366FFF" stop-opacity="0.0791954627" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3F75FF" stop-opacity="0.485383147" offset="0%"></stop>
+            <stop stop-color="#366FFF" stop-opacity="0.0619801341" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.0860854%" y1="0%" x2="50%" y2="66.1287423%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#BACBFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="开发生态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-809.000000, -1503.000000)">
+            <g id="编组-23" transform="translate(29.000000, 1038.000000)">
+                <g id="移动门户服务" transform="translate(780.000000, 465.000000)">
+                    <rect id="矩形" x="0" y="0" width="52" height="52"></rect>
+                    <g id="编组-31" transform="translate(7.000000, 3.000000)">
+                        <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="34.2439024" height="45.2903226" rx="1"></rect>
+                        <rect id="矩形" fill="url(#linearGradient-2)" x="4.79633069" y="5.70112105" width="23.7804878" height="34.2439024" rx="1"></rect>
+                        <path d="M36.0481805,24.5839699 L15.3890026,16.073078 C14.8783533,15.8627075 14.2938513,16.1061316 14.0834808,16.6167809 C13.9895762,16.8447232 13.9831799,17.0993195 14.0655199,17.3316897 L21.684486,38.8330318 C21.8689487,39.3536007 22.4404897,39.6260685 22.9610586,39.4416058 C23.212438,39.3525299 23.4178216,39.1667308 23.5315597,38.9255052 L26.61337,32.3893335 C27.3438039,30.8401656 28.6168547,29.6125497 30.191534,28.9388732 L36.0606052,26.4279778 C36.5683733,26.2107454 36.8038991,25.6230163 36.5866666,25.1152481 C36.4836608,24.8744779 36.2903168,24.683722 36.0481805,24.5839699 Z" id="路径-11" fill="url(#linearGradient-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

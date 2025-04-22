@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>费用服务</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#366FFF" stop-opacity="0.610148397" offset="0%"></stop>
+            <stop stop-color="#99B6FF" stop-opacity="0.106471775" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#366FFF" stop-opacity="0.579601795" offset="0%"></stop>
+            <stop stop-color="#99B6FF" stop-opacity="0.0761650459" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82.482122%" y1="50%" x2="-14.3235942%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#366FFF" stop-opacity="0.91715694" offset="0%"></stop>
+            <stop stop-color="#99B6FF" stop-opacity="0.194358986" offset="99.9504036%"></stop>
+        </linearGradient>
+        <linearGradient x1="86.5955709%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#366FFF" offset="0%"></stop>
+            <stop stop-color="#99B6FF" stop-opacity="0.208798282" offset="99.9504036%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#A7B9F2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M26.437981,0.751660358 L36.2017417,5.78465129 C36.6926438,6.03769987 36.8854621,6.64079105 36.6324135,7.13169314 C36.5332519,7.3240619 36.3743583,7.47906891 36.1795932,7.5734371 L26.4158326,12.3042068 C25.9188156,12.5450231 25.3206834,12.3373314 25.0798671,11.8403144 C25.0140091,11.7043912 24.9797961,11.5553156 24.9797961,11.4042778 L24.9797961,1.64051722 C24.9797961,1.08823247 25.4275113,0.640517219 25.9797961,0.640517219 C26.1391998,0.640517219 26.296294,0.678623968 26.437981,0.751660358 Z" id="path-6"></path>
+        <filter x="-46.2%" y="-41.2%" width="182.8%" height="182.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.103564568   0 0 0 0 0.18748215   0 0 0 0 0.393280029  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-38.5%" y="-33.5%" width="167.4%" height="167.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C9D6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="开发生态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-195.000000, -1214.000000)">
+            <g id="编组-23" transform="translate(29.000000, 1038.000000)">
+                <g id="费用服务" transform="translate(166.000000, 176.000000)">
+                    <rect id="矩形" x="0" y="0" width="52" height="52"></rect>
+                    <g id="编组-26" transform="translate(7.000000, 5.000000)">
+                        <rect id="矩形" fill="url(#linearGradient-1)" x="7" y="12" width="16" height="12"></rect>
+                        <rect id="矩形备份-18" fill="url(#linearGradient-2)" x="15" y="16" width="16" height="15"></rect>
+                        <polygon id="路径-6" fill="url(#linearGradient-3)" fill-rule="nonzero" points="29.4059542 5.5 29.4059542 8.5 2.99979605 8.5 3 31 0 31 0 5.5"></polygon>
+                        <polygon id="路径-6备份" fill="url(#linearGradient-4)" fill-rule="nonzero" transform="translate(22.702977, 25.750000) rotate(-180.000000) translate(-22.702977, -25.750000) " points="37.4059542 13 37.4059542 16 10.9997961 16 11 38.5 8 38.5 8 13"></polygon>
+                        <g id="矩形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-6"></use>
+                        </g>
+                        <path d="M1.45818499,30.7516604 L11.2219456,35.7846513 C11.7128477,36.0376999 11.9056661,36.640791 11.6526175,37.1316931 C11.5534559,37.3240619 11.3945622,37.4790689 11.1997972,37.5734371 L1.43603656,42.3042068 C0.939019526,42.5450231 0.340887392,42.3373314 0.100071049,41.8403144 C0.0342130886,41.7043912 2.86793639e-16,41.5553156 0,41.4042778 L0,31.6405172 C1.5440923e-16,31.0882325 0.44771525,30.6405172 1,30.6405172 C1.15940372,30.6405172 1.3164979,30.678624 1.45818499,30.7516604 Z" id="矩形备份-20" fill="url(#linearGradient-9)" transform="translate(6.500000, 36.500000) scale(-1, 1) translate(-6.500000, -36.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

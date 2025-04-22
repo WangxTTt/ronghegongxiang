@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>02-资质审核</title>
+    <defs>
+        <circle id="path-1" cx="79.5" cy="79.5" r="60.5"></circle>
+        <filter x="-16.1%" y="-14.5%" width="132.2%" height="132.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.349019608   0 0 0 0 0.501960784   0 0 0 0 0.898039216  0 0 0 0.189661626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="69" height="46" rx="4"></rect>
+        <filter x="-11.6%" y="-15.2%" width="123.2%" height="134.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.159119965   0 0 0 0 0.355607886   0 0 0 0 0.784261068  0 0 0 0.0966609075 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="21.885309%" y1="0%" x2="69.9226344%" y2="89.7303003%" id="linearGradient-5">
+            <stop stop-color="#DDE6FF" offset="0%"></stop>
+            <stop stop-color="#1958FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-6" cx="60.5" cy="40.5" r="12.5"></circle>
+        <filter x="-12.0%" y="-12.0%" width="124.0%" height="124.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.974858279   0 0 0 0 0.974858279  0 0 0 0.26079682 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="-1" dy="-3" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.179169671   0 0 0 0 0.339749648   0 0 0 0 0.765414031  0 0 0 0.666417689 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="开发生态" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-产品页备份-9" transform="translate(-492.000000, -2369.000000)">
+            <g id="编组-44" transform="translate(0.000000, 2146.000000)">
+                <g id="编组-45" transform="translate(192.000000, 223.000000)">
+                    <g id="02-资质审核" transform="translate(300.000000, 0.000000)">
+                        <rect id="矩形" x="0" y="0" width="160" height="160"></rect>
+                        <g id="椭圆形备份-13">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" stroke-width="7" fill="#E4EDFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="编组-46" transform="translate(43.000000, 53.000000)">
+                            <g id="编组-39备份">
+                                <g id="矩形">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                                <circle id="椭圆形" fill="#BBCCFB" cx="17.8645106" cy="19" r="7"></circle>
+                                <polygon id="矩形" fill="#BBCCFB" transform="translate(12.364511, 26.000000) rotate(33.000000) translate(-12.364511, -26.000000) " points="9.86451063 20 14.8645106 20 14.8645106 32 12.3645106 29.9692068 9.86451063 32"></polygon>
+                                <polygon id="矩形备份-27" fill="#BBCCFB" transform="translate(23.364511, 26.000000) scale(-1, 1) rotate(35.000000) translate(-23.364511, -26.000000) " points="20.8645106 20 25.8645106 20 25.8645106 32 23.3645106 29.9692068 20.8645106 32"></polygon>
+                                <line x1="37.5395868" y1="12.5" x2="59.3543452" y2="12.5" id="路径-3" stroke="#E3E3E3" stroke-width="4" stroke-linecap="round"></line>
+                                <line x1="37.4604132" y1="21.3921494" x2="53.4076308" y2="21.3921494" id="路径-3备份" stroke="#E3E3E3" stroke-width="4" stroke-linecap="round"></line>
+                                <line x1="37" y1="30.3921494" x2="48.0263912" y2="30.3921494" id="路径-3备份-2" stroke="#E3E3E3" stroke-width="4" stroke-linecap="round"></line>
+                            </g>
+                            <g id="椭圆形">
+                                <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            </g>
+                            <path d="M55,40.4686279 L58.9252093,43.7790614 C59.1363013,43.9570916 59.4517473,43.9302898 59.6297775,43.7191978 C59.6314953,43.7171611 59.6331967,43.7151106 59.6348817,43.7130467 L65.931676,36 L65.931676,36" id="路径-16" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
