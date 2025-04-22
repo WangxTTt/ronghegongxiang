@@ -660,7 +660,210 @@
         </div>
       </div>
     </div>
+    <div class="subbox">
+      <div class="eco">
+        <div class="eco_nav">
+          <a class="on">嘉为优势</a>
+          <a class="">合作伙伴申请流程</a>
+          <a class="">合作伙伴类型</a>
+          <a class="">WeOps技术认证</a>
+          <a class="">加入稷生科技</a>
+        </div>
 
+        <div class="eco_con eco_jr_s">
+          <div class="container">
+            <div class="title">
+              <h2 class="font36">为什么要成为<span>稷生科技的合作伙伴？</span></h2>
+              <p>全面专业的业务支持、全程顾问式项目支持、多样化营销支持，共同打造运维新生态。</p>
+            </div>
+            <div class="eco_jr">
+              <div class="eco_jr_box">
+                <div class="eco_jr_l">
+                  <h3 class="font28">共同成长</h3>
+                  <p>开放生态资源，与合作伙伴互联共赢，共建智慧产业新生态。</p>
+                </div>
+                <div class="icon_animation">
+                  <img alt="共同成长" src="@/assets/iconAni4_1.png">
+                  <img alt="共同成长" src="@/assets/icon1.png">
+                </div>
+              </div>
+              <div class="eco_jr_box">
+                <div class="eco_jr_l">
+                  <h3 class="font28">专业培训</h3>
+                  <p>定制培训课程，提供线上线下解决方案及产品培训、认证培训、专家大咖分享，全面提升合作伙伴业务能力。</p>
+                </div>
+                <div class="icon_animation">
+                  <img alt="专业培训" src="@/assets/iconAni4_1.png">
+                  <img alt="专业培训" src="@/assets/icon2.png">
+                </div>
+              </div>
+              <div class="eco_jr_box">
+                <div class="eco_jr_l">
+                  <h3 class="font28">技术支持</h3>
+                  <p>20多年运维经验沉淀，支持潜在客户的产品测试、售后服务、用户使用指导及二线技术专家支持。</p>
+                </div>
+                <div class="icon_animation">
+                  <img alt="技术支持" src="@/assets/iconAni4_1.png">
+                  <img alt="技术支持" src="@/assets/icon3.png">
+                </div>
+              </div>
+              <div class="eco_jr_box">
+                <div class="eco_jr_l">
+                  <h3 class="font28">品牌认证</h3>
+                  <p>联合市场推广、营销加乘市场激励、标杆案例宣传、独家品牌授权、高端峰会交流，助力合作伙伴拓展市场。</p>
+                </div>
+                <div class="icon_animation">
+                  <img alt="品牌认证" src="@/assets/iconAni4_1.png">
+                  <img alt="品牌认证" src="@/assets/icon4.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="eco_con eco_hb_s">
+          <div class="container">
+            <div class="title">
+              <h2 class="font36"><span>合作伙伴</span>申请流程</h2>
+              <p>互信携手，共创共赢</p>
+            </div>
+            <div class="eco_hb">
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon1.png">
+                  <p class="font14">注册用户</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="@/assets/arror.png">
+                </div>
+              </div>
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon2.png">
+                  <p class="font14">提交申请</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="@/assets/arror.png">
+                </div>
+              </div>
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon3.png">
+                  <p class="font14">商务沟通</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="@/assets/arror.png">
+                </div>
+              </div>
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon4.png">
+                  <p class="font14">线上入驻</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="@/assets/arror.png">
+                </div>
+              </div>
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon5.png">
+                  <p class="font14">人工审核</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="@/assets/arror.png">
+                </div>
+              </div>
+              <div class="eco_hb_box">
+                <div class="eco_hb_con">
+                  <img alt="" src="@/assets/iicon5.png">
+                  <p class="font14">入驻成功</p>
+                </div>
+                <div class="eco_hb_r">
+                  <img alt="" src="/assets/vie/img/r11.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="eco_con eco_lx_s">
+      <div class="container">
+        <div class="title">
+          <h2 class="font36"><span>合作伙伴</span>类型</h2>
+          <p>构建全国生态合作网络</p>
+        </div>
+        <div class="eco_lx">
+          <div class="eco_lx_box">
+            <h3 class="font28">签约合作伙伴​</h3>
+            <p>紧密协作，双方资源优势互补，共同拓展业务版图，为客户呈现稷生科技WeOps产品及服务，实现互利共赢的长期发展。​</p>
+            <span></span>
+          </div>
+          <div class="eco_lx_box">
+            <h3 class="font28">独家经销商​</h3>
+            <p>
+              在特定区域或行业上，拥有稷生科技WeOps-4150运维一体机的独家销售权。全力开拓市场，构建专属销售网络，同时提升稷生科技品牌在区域内的市场份额与影响力。​</p>
+            <span></span>
+          </div>
+          <div class="eco_lx_box">
+            <h3 class="font28">区域服务中心​</h3>
+            <p>
+              扎根全国授权区域，为当地客户提供即时、专业的稷生科技WeOps产品交付实施和售后服务，快速响应客户需求，以优质服务增强客户信赖，稳固稷生科技品牌区域口碑。</p>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eco_con eco_lx_s">
+      <div class="container">
+        <div class="title">
+          <h2 class="font36">WeOps技术认证</h2>
+          <p></p>
+        </div>
+        <div class="eco_zc">
+          <div class="weo_ld_con">
+            <div class="weo_ld_l">
+              <div class="sub_tnav">
+                <i v-if="subId===1" style="opacity: 1; top: 0px;"></i>
+                <i v-if="subId===2" style="opacity: 1; top: 134.175px;"></i>
+                <i v-if="subId===3" style="opacity: 1; top: 283.025px;"></i>
+                <a :class="{'on':subId===1}" @mouseenter="getsub(1)">
+                  <h3 class="font22">WeOps初级技术认证</h3>
+                  <div class="sub_tnav_p">
+                    <p>学习WeOps的使用与配置管理</p>
+                  </div>
+                </a>
+                <a :class="{'on':subId===2}" @mouseenter="getsub(2)">
+                  <h3 class="font22">WeOps中级技术认证</h3>
+                  <div class="sub_tnav_p">
+                    <p>学习WeOps的运维与问题排查</p>
+                  </div>
+                </a>
+                <a :class="{'on':subId===3}" @mouseenter="getsub(3)">
+                  <h3 class="font22">WeOps高级技术认证</h3>
+                  <div class="sub_tnav_p">
+                    <p>学习WeOps的插件、大屏等对接开发</p>
+                  </div>
+                </a>
+              </div>
+              <a class="nepub_a">课程中心</a>
+            </div>
+            <div class="weo_ld_r">
+              <a v-if="subId===1" class="weo_ld_img">
+                <img alt="" src="@/assets/a1.png">
+              </a>
+              <a v-if="subId===2" class="weo_ld_img">
+                <img alt="" src="@/assets/a2.png">
+              </a>
+              <a v-if="subId===3" class="weo_ld_img">
+                <img alt="" src="@/assets/a3.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -669,6 +872,7 @@ export default {
   name: "OnePage",
   data() {
     return {
+      subId: 1,
       mainData1: [
         {
           img: require("@/assets/liveOne/icon1.png"),
@@ -783,6 +987,9 @@ export default {
   methods: {
     changeColor(id) {
       this.colorId = id
+    },
+    getsub(id) {
+      this.subId = id
     }
   }
 }
@@ -2228,4 +2435,573 @@ export default {
 
 }
 
+.sub_banner {
+  height: 575px;
+  position: relative;
+
+  .sub_banner_imghz::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    content: '';
+  }
+
+  .sub_banner_imghz {
+    position: relative;
+    height: 100%;
+
+    img {
+
+      width: 100%;
+      border: 0;
+      vertical-align: middle;
+      object-fit: cover;
+      height: 575px;
+    }
+  }
+
+  .h_b_txt {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0;
+    margin: 0 auto;
+    width: 72.9%;
+
+    .h_b_txt_l {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 50%;
+
+      .h_b_txt_p {
+        margin-bottom: 50px;
+
+        p {
+          color: #fff;
+        }
+
+        p:first-child {
+          font-size: 50px;
+          margin-bottom: 15px;
+        }
+
+        p:not(:first-child) {
+          width: 100%;
+          line-height: 1.6;
+          margin-bottom: 0;
+          text-align: justify;
+        }
+      }
+
+      .font18 {
+        font-size: 18px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .h_b_txt_a {
+        display: flex;
+
+        a:nth-child(1) {
+          background: #156bff;
+          border-color: #156bff;
+        }
+
+        a {
+          color: #fff;
+          //border-color: #fff;
+          width: auto;
+          height: 46px;
+          border-radius: 4px;
+          border: 2px solid #156bff;
+          margin-right: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          padding: 0 30px;
+          text-decoration: none;
+        }
+
+        .eco_t_a {
+          margin-left: 28px;
+          margin-top: -13px;
+
+          p {
+            display: flex;
+            align-items: center;
+            color: #bcd2ff;
+
+            a:nth-child(1) {
+              border-color: #156bff;
+              background: #fff !important;
+              color: #156bff !important;
+
+            }
+
+            a {
+              width: auto;
+              height: 46px;
+              border-radius: 4px;
+              border: 2px solid #156bff;
+              margin-right: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #156bff;
+              padding: 0 30px;
+              padding: 0 15px;
+              margin: 0;
+              border: none;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.subbox {
+  background: #F5F7FB;
+  width: 100%;
+
+  .eco {
+    .eco_nav {
+      padding-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: initial;
+      top: 0;
+      background: #F5F7FB;
+      z-index: 100;
+      //padding-bottom: 0.2rem;
+
+      .on {
+        background: #156BFF;
+        color: #fff;
+      }
+
+      a {
+        padding: 0 40px;
+        margin: 0 43px;
+        height: 51px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        transition: all 0.6s;
+        background: #fff;
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+}
+
+.eco_jr_s {
+  .container {
+    margin: 0 auto;
+    width: 72.9%;
+
+    .title {
+      padding: 85px 0 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        color: #161b27;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 36px;
+
+        span {
+          color: #156BFF;
+
+        }
+      }
+
+      p {
+        color: #333;
+        width: 90%;
+        text-align: center;
+        line-height: 1.6;
+      }
+    }
+
+    .eco_jr {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: -40px;
+
+      .eco_jr_box:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        background: #156bff;
+
+        h3 {
+          color: #fff;
+        }
+
+        p {
+          color: #fff !important;
+        }
+      }
+
+      .eco_jr_box {
+        width: calc(50% - 130px);
+        margin-bottom: 40px;
+        background: #fff;
+        border-radius: 8px;
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+        transition: all 0.6s;
+
+        .eco_jr_l {
+          h3 {
+            margin-bottom: 20px;
+            transition: all 0.6s;
+            font-size: 28px;
+            text-align: justify;
+          }
+
+          p {
+            color: #666;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            height: 60px;
+            transition: all 0.6s;
+          }
+        }
+
+        .icon_animation {
+          flex-shrink: 0;
+          margin-left: 68px;
+          width: 60px;
+          height: 50px;
+          position: relative;
+
+          img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.eco_hb_s {
+  padding-bottom: 82px;
+
+  .container {
+    margin: 0 auto;
+    width: 72.9%;
+
+    .title {
+      padding: 85px 0 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        color: #161b27;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 36px;
+
+        span {
+          color: #156BFF;
+        }
+      }
+
+      p {
+        color: #333;
+        width: 90%;
+        text-align: center;
+        line-height: 1.6;
+      }
+    }
+
+    .eco_hb {
+      display: flex;
+      align-items: center;
+
+      .eco_hb_box {
+        width: calc((100% - 350px) / 6);
+        position: relative;
+        margin: 0 70px 0 0;
+        height: 50px;
+
+        .eco_hb_con {
+          width: 100%;
+          height: 100%;
+          border-radius: 3px;
+          background: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 20px;
+            height: auto;
+            margin-right: 10px;
+            border: 0;
+            vertical-align: middle;
+            object-fit: cover;
+
+          }
+
+          .font14 {
+            font-size: 14px;
+          }
+        }
+
+        .eco_hb_r {
+          position: absolute;
+          left: 100%;
+          top: 0;
+          width: 70px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 6px;
+            height: auto;
+            border: 0;
+            vertical-align: middle;
+            object-fit: cover;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.eco_lx_s {
+  background: #fff;
+
+  .container {
+    margin: 0 auto;
+    width: 72.9%;
+
+    .title {
+      padding: 85px 0 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        color: #161b27;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 36px;
+
+        span {
+          color: #156BFF;
+        }
+      }
+
+      p {
+        color: #333;
+        width: 90%;
+        text-align: center;
+        line-height: 1.6;
+      }
+    }
+
+    .eco_lx {
+      display: flex;
+      justify-content: space-between;
+
+      .eco_lx_box:hover {
+        background: #156bff;
+        color: #fff !important;
+
+        p {
+          color: white;
+        }
+      }
+
+      .eco_lx_box {
+        padding: 45px 50px 0;
+        height: 220px;
+        background: #f5f7fb;
+        border-radius: 10px;
+        width: calc((100% - 340px) / 3);
+        position: relative;
+        overflow: hidden;
+
+        h3 {
+          margin-bottom: 15px;
+          font-size: 28px;
+        }
+
+        p {
+          color: #666;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 4;
+        }
+
+        span {
+          left: 50px;
+          bottom: -15px;
+          position: absolute;
+          font-size: 70px;
+          opacity: 0.1;
+          color: #000;
+          line-height: 1;
+        }
+      }
+    }
+
+    .eco_zc {
+      padding-bottom: 100px;
+
+      .weo_ld_con {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .weo_ld_l {
+          height: 480px;
+          width: 36.5%;
+
+          .sub_tnav {
+            position: relative;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            height: 100%;
+
+            i {
+              position: absolute;
+              height: 33.3%;
+              top: 0;
+              left: 0;
+              background: #156bff;
+              z-index: 1;
+              border-radius: 5px;
+              transition: all 0.6s;
+              width: 5px;
+            }
+
+            a {
+              padding: 0 0 0 40px;
+              display: flex;
+              height: auto !important;
+              margin-bottom: 40px;
+              z-index: 1;
+              flex-direction: column;
+              justify-content: center;
+              flex-shrink: 0;
+              text-decoration: none;
+              text-align: left;
+
+              h3 {
+                color: #333;
+                margin-bottom: 5px;
+                font-size: 25px;
+              }
+
+              .sub_tnav_p {
+                p {
+                  font-size: 14px;
+                  color: #666;
+                  overflow-y: auto;
+                  /* max-height: 4.5em; */
+                  padding-right: 10px;
+                  direction: ltr;
+                }
+              }
+            }
+
+            .on {
+              color: #fff;
+
+              h3 {
+                color: #156BFF;
+              }
+            }
+          }
+
+          .nepub_a {
+            width: 140px;
+            height: 46px;
+            background: #156bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            border-radius: 4px;
+            transition: all 0.6s;
+            color: #fff;
+            border: 1px solid transparent;
+            margin-top: 40px;
+            margin-left: 40px;
+            text-decoration: none;
+          }
+        }
+
+        .weo_ld_r {
+          box-shadow: none;
+          border: none;
+          padding: 0;
+          width: 60.5%;
+          border-radius: 10px;
+          background: #fff;
+
+          .weo_ld_img {
+            height: 480px;
+            padding: 0;
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+            color: #333;
+
+            img:not(.editor_img) {
+              height: 100%;
+              width: 100%;
+              border: 0;
+              vertical-align: middle;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
 </style>
