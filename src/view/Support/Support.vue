@@ -174,6 +174,92 @@
 
       </div>
     </div>
+    <div id="fff" class="technical-support-system-container">
+      <div class="intelligent-container">
+        <div class="tg-modular-default-title">全方位的技术支持体系</div>
+        <span class="tg-title-bottom-line"></span>
+        <div class="technical-support-system-wrap">
+          <div class="technical-support-system-card">
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="市场活动支持"
+                                                               src="@/assets/home/支持01_市场.png">市场活动支持
+              </div>
+              <div class="technical-support-system-content">
+                联合举办、参与各类市场会议和活动，帮助合作伙伴提高品牌曝光度和市场影响力。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="营销物料供应"
+                                                               src="@/assets/home/支持01_营销.png">营销物料供应
+              </div>
+              <div class="technical-support-system-content">
+                产品介绍、PPT、案例、宣传视频...我们可为合作伙伴提供丰富全面的营销物料，帮助伙伴更好地开拓市场。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="推广引流支持"
+                                                               src="@/assets/home/支持01_推广.png">推广引流支持
+              </div>
+              <div class="technical-support-system-content">
+                我们可协助合作伙伴进行线上线下全渠道推广，为合作伙伴带来更多的商机和客户资源。
+              </div>
+            </div>
+          </div>
+          <div class="technical-support-system-card">
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="销售支持"
+                                                               src="@/assets/home/支持02_支持png.png">销售支持
+              </div>
+              <div class="technical-support-system-content">
+                综合市场趋势和客户需求，为合作伙伴提供商务策略指导，帮助合作伙伴更好地发展业务、把握商机。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="项目全流程指导"
+                                                               src="@/assets/home/支持02_指导png.png">项目全流程指导
+              </div>
+              <div class="technical-support-system-content">
+                我们将为合作伙伴提供项目管理的实践经验，以及从项目启动到项目交付全方位支持和指导，确保项目顺利推进。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="项目交付质量控制"
+                                                               src="@/assets/home/支持02_控制png.png">项目交付质量控制
+              </div>
+              <div class="technical-support-system-content">
+                我们为合作伙伴提供项目实施质量把控和过程管理，确保项目结果符合交付准和客户预期要求。
+              </div>
+            </div>
+          </div>
+          <div class="technical-support-system-card">
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="专业的技术培训"
+                                                               src="@/assets/home/支持03_培训png.png">专业的技术培训
+              </div>
+              <div class="technical-support-system-content">
+                我们提供系统化的培训计划，让合作伙伴快速掌握专业技能和业务能力，助您快速开展业务。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="完善的技术支持"
+                                                               src="@/assets/home/支持03_支持png.png">完善的技术支持
+              </div>
+              <div class="technical-support-system-content">
+                资深技术团队随时为合作伙伴提供技术支持，确保项目能够顺利进行，为合作伙伴提供坚实后盾。
+              </div>
+            </div>
+            <div class="technical-support-system-card-item">
+              <div class="technical-support-system-title"><img alt="更丰富的产品功能"
+                                                               src="@/assets/home/支持03_功能png.png">更丰富的产品功能
+              </div>
+              <div class="technical-support-system-content">
+                我们为合作伙伴提供更多的产品高级功能，以及覆盖数十行业的产品和解决方案，帮助伙伴在更高起点进行项目实施。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -388,6 +474,78 @@ export default {
           color: #999;
           text-align: justify;
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.technical-support-system-container {
+  max-width: 3840px;
+  background-image: url('@/assets/home/支持体系bg.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 auto;
+  background-position: top;
+  background-color: #eff6ff;
+  padding-bottom: 60px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .technical-support-system-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 30px;
+
+      .technical-support-system-card {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 30px 30px 20px;
+        background-image: linear-gradient(-180deg, #eef5ff 0, #ffffff 100%);
+        border-radius: 4px;
+
+        .technical-support-system-card-item {
+          margin-bottom: 30px;
+
+          .technical-support-system-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1357bd;
+
+            img {
+              width: 32px;
+              margin-right: 10px;
+            }
+          }
+
+          .technical-support-system-content {
+            font-size: 16px;
+            color: #111a31;
+          }
         }
       }
     }

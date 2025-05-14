@@ -815,6 +815,7 @@
         </div>
       </div>
     </div>
+
   </div>
 
 </template>
@@ -2474,6 +2475,281 @@ export default {
                 }
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+#intelligent-vision-mission {
+  max-width: 3840px;
+  /* padding-bottom: 20px; */
+  background-image: url('@/assets/home/生态伙伴bg.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 auto;
+  background-position: top;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-default-title-content {
+      /* width: 1014px; */
+      width: 100%;
+      font-size: 16px;
+      color: #515a6e;
+      text-align: center;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+      padding-bottom: 35px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .ecological-partner {
+      padding-bottom: 75px;
+    }
+
+    .ecological-partner-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 30px;
+
+      .ecological-partner-card {
+        position: relative;
+        padding: 65px 30px 20px;
+        border-radius: 4px;
+        background-image: linear-gradient(-180deg, rgba(66, 142, 255, 0.35) 0, rgba(70, 145, 255, 0) 100%);
+
+        img {
+          position: absolute;
+          top: -62px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .ecological-partner-card-title {
+          text-align: center;
+          font-size: 22px;
+          font-weight: 700;
+          color: #082543;
+          margin-bottom: 20px;
+        }
+
+        .ecological-partner-card-text {
+          font-size: 16px;
+          font-weight: normal;
+          color: #111a31;
+        }
+      }
+    }
+  }
+}
+
+#intelligent-developer-journey {
+  margin-bottom: 60px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .join-advantage {
+      padding-bottom: 40px;
+    }
+
+    .join-advantage-wrap {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 30px;
+
+      hr {
+        display: none;
+      }
+
+      .join-advantage-card {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 7px 2px rgba(0, 65, 134, 0.2);
+        border-radius: 4px;
+        height: 200px;
+
+        .join-advantage-card-title-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 25px;
+          background-image: linear-gradient(90deg, rgba(66, 142, 255, 0.35) 0, rgba(70, 145, 255, 0) 100%);
+
+          .title {
+            font-size: 22px;
+            color: #082543;
+            font-weight: 700;
+          }
+        }
+
+        .join-advantage-card-content {
+          padding: 10px 25px;
+          text-align: justify;
+          color: #111a31;
+        }
+      }
+    }
+  }
+}
+
+#intelligent-developer-rights {
+  padding-bottom: 60px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .ecological-rights-support-wrap {
+      max-width: 1314px;
+      min-height: 626px;
+      margin: 0 auto;
+      background-image: url('@/assets/home/权益bg01.png'), url('@/assets/home/权益bg02.png');
+      background-position: center, center;
+      background-repeat: no-repeat;
+
+      .ecological-rights-support-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 210px 396px;
+        padding-top: 90px;
+
+        .ecological-rights-support-card {
+          display: flex;
+          /* width: 35%; */
+          .content {
+            .title {
+              display: flex;
+              align-items: center;
+              font-size: 22px;
+              color: #10939f;
+
+              span {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 4px;
+                background-color: currentColor;
+                margin-right: 20px;
+              }
+
+              img {
+                display: none;
+              }
+            }
+
+            .text {
+              font-size: 16px;
+              color: #111a31;
+            }
+          }
+
+          img {
+            width: 100px;
+            height: 100px;
           }
         }
       }

@@ -1,19 +1,256 @@
 <template>
   <div>
-    <div class="banner-box">
-      <div class="imga">
-        <img class="banner" src="../../assets/home/banner.png"/>
-      </div>
-      <div class="img-text">
-        <div class="text-inner">
-          <h2 class="text1">企业合伙人</h2>
-          <p></p>
-          <h4 class="text2">
-            开放API、个性化定制开发，高效连接企业多渠道数据，安全<br/>省心打造企业专属合作
-          </h4>
+    <!--    <div class="banner-box">-->
+    <!--      <div class="imga">-->
+    <!--        <img class="banner" src="../../assets/home/banner.png"/>-->
+    <!--      </div>-->
+    <!--      <div class="img-text">-->
+    <!--        <div class="text-inner">-->
+    <!--          <h2 class="text1">企业合伙人</h2>-->
+    <!--          <p></p>-->
+    <!--          <h4 class="text2">-->
+    <!--            开放API、个性化定制开发，高效连接企业多渠道数据，安全<br/>省心打造企业专属合作-->
+    <!--          </h4>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <section id="product-banner" class="ecological-franchise">
+      <div class="stream-server-box">
+        <!-- banner content box -->
+        <div class="banner-container">
+          <!-- title -->
+          <span id="title" class="title">图观™生态伙伴计划</span>
+          <div class="sub-title">加盟招募</div>
+          <!-- content -->
+          <p class="p-tint">
+            数字化改革浪潮下，图观引擎致力于构建开放、共赢的生态合作体系，热忱招募生态合作伙伴，共赢数字经济时代蓝海！
+          </p>
+        </div>
+        <div class="banner-video-container">
+          <div class="banner-video-img-wrap">
+            <img alt="" class="img-bg" src="@/assets/home/招募计划.jpg">
+            <!--            <img alt="" class="img-play-btn" src="../img/video-tutorial/video_play_btn.png">-->
+          </div>
+
         </div>
       </div>
+    </section>
+    <div class="tg-product-banner-menu-container">
+      <div class="tg-product-banner-menu-wrap">
+        <div class="banner-title">图观™生态加盟</div>
+        <ul class="banner-menu-list">
+          <li @click="scrollToSection(1)"><span
+              class="banner-menu-item long"><span>什么是</span>图观生态伙伴</span>
+          </li>
+          <li @click="scrollToSection(2)"><span class="banner-menu-item">加盟优势</span>
+          </li>
+          <li @click="scrollToSection(3)"><span class="banner-menu-item">生态权益支持</span>
+          </li>
+          <li @click="scrollToSection(4)"><span class="banner-menu-item">加盟流程</span></li>
+          <li @click="scrollToSection(5)"><span class="banner-menu-item">生态加盟</span></li>
+        </ul>
+      </div>
     </div>
+
+    <section id="intelligent-vision-mission" style="position: relative;">
+      <div class="intelligent-container">
+        <div class="tg-modular-default-title">什么是图观生态伙伴</div>
+        <span class="tg-title-bottom-line"></span>
+        <p class="tg-modular-default-title-content">
+          数字经济时代，数字化转型已成为大势所趋。政策加持，加之产业升级，数字孪生技术所涉及的细分市场也呈现出<br>
+          蓬勃发展的态势。在这样一个机遇与挑战并存的时代背景下，图观引擎致力于构建开放、共赢的生态合作体系，<br>
+          热忱招募生态合作伙伴，共赢数字经济时代蓝海！
+        </p>
+        <div class="tg-modular-sub-title ecological-partner">图观生态伙伴类型</div>
+        <div class="ecological-partner-wrap">
+          <div class="ecological-partner-card">
+            <img alt="渠道销售型合作伙伴" src="@/assets/home/渠道.png">
+            <div>
+              <div class="ecological-partner-card-title">渠道销售型合作伙伴</div>
+              <div class="ecological-partner-card-text">
+                具备图观产品销售和业务咨询能力，进行产品分销、推广和销售支持，与图观团队共同开拓市场，推动业务增长。
+              </div>
+            </div>
+          </div>
+          <div class="ecological-partner-card">
+            <img alt="实施交付型合作伙伴" src="@/assets/home/交付.png">
+            <div>
+              <div class="ecological-partner-card-title">实施交付型合作伙伴</div>
+              <div class="ecological-partner-card-text">具备图观项目实施和交付能力，提供三维建模 或
+                应用开发、安装部署、驻场交付等服务，共同为客户提供卓越的服务。
+              </div>
+            </div>
+          </div>
+          <div class="ecological-partner-card">
+            <img alt="资源集成型伙伴" src="@/assets/home/资源.png">
+            <div>
+              <div class="ecological-partner-card-title">资源集成型伙伴</div>
+              <div class="ecological-partner-card-text">
+                能够整合和协调各种资源，在自身产品或解决方案中集成图观，向用户提供综合性的整体解决方案，实现双方的业务增长和利益最大化。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="intelligent-developer-journey">
+      <div class="intelligent-container">
+        <div class="tg-modular-default-title">加盟优势</div>
+        <span class="tg-title-bottom-line"></span>
+        <div class="tg-modular-sub-title join-advantage">携手在这个时代机遇中实现共赢</div>
+        <div class="join-advantage-wrap">
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">市场广阔</span>
+              <img alt="市场广阔" src="@/assets/home/广阔.png">
+            </div>
+            <div class="join-advantage-card-content">
+              数字化改革浪潮下，各行业数字化转型需求旺盛、数字孪生行业细分市场发展蓬勃，数字孪生是大势所趋，市场前景和销售机会广阔。
+            </div>
+          </div>
+          <hr>
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">无套路、0成本上手</span>
+              <img alt="无套路、0成本上手" src="@/assets/home/零成本.png">
+            </div>
+            <div class="join-advantage-card-content">
+              公有云免费用，私有云低价装！海量功能，真免费使用！超实惠价格容量升级！真正让利给合作伙伴，超低成本获得强大的数字孪生开发技术能力。
+            </div>
+          </div>
+          <hr>
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">技术成熟，经验丰富</span>
+              <img alt="技术成熟，经验丰富" src="@/assets/home/经验.png">
+            </div>
+            <div class="join-advantage-card-content">
+              数字冰雹拥有十余年、千余个、遍及数十个行业的项目实施经验，深谙行业需求和数字孪生技术特性，助力伙伴高质量进行项目实施。
+            </div>
+          </div>
+          <hr>
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">品牌影响力强</span>
+              <img alt="品牌影响力强" src="@/assets/home/影响力.png">
+            </div>
+            <div class="join-advantage-card-content">
+              数字冰雹作为深耕行业十七年的老牌厂商，拥有很高的知名度和优良的市场口碑，深受用户的信任和赞誉，选择图观
+              就是选择数字冰雹做您坚实后盾。
+            </div>
+          </div>
+          <hr>
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">产品过硬</span>
+              <img alt="产品过硬" src="@/assets/home/过硬.png">
+            </div>
+            <div class="join-advantage-card-content">
+              图观引擎专为数字孪生应用开发而生，已被华为、京东、百度等大厂一致认证，具备实际应用性、可交付性、技术成熟性、扩展灵活性等优势，真正赋予合作伙伴数字孪生应用高品质交付能力。
+            </div>
+          </div>
+          <hr>
+          <div class="join-advantage-card">
+            <div class="join-advantage-card-title-wrap">
+              <span class="title">服务完善</span>
+              <img alt="服务完善" src="@/assets/home/完善.png">
+            </div>
+            <div class="join-advantage-card-content">
+              图观拥有完善的技术支持和服务体系，资深技术团队可为您提供从项目咨询、方案设计、数字孪生场景构建、开发运维全流程配套服务，为数字孪生应用开发提供坚实基础，减少您的技术风险和投资风险。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="intelligent-developer-rights">
+      <div class="intelligent-container">
+        <div class="tg-modular-default-title">生态权益支持</div>
+        <span class="tg-title-bottom-line"></span>
+        <div class="tg-modular-sub-title">真正让伙伴获利</div>
+        <div class="ecological-rights-support-wrap">
+          <div class="ecological-rights-support-content cross-line">
+            <div class="ecological-rights-support-card">
+              <div class="content">
+                <div class="title"><span></span><img alt="客户服务收益" src="@/assets/home/服务收益.png">客户服务收益
+                </div>
+                <div class="text">
+                  通过为客户提供数字孪生技术服务，获得客户满意度认可，有助于您在数字孪生市场上建立良好的声誉和口碑，为您未来的业务发展打下坚实的基础。
+                </div>
+              </div>
+              <img alt="客户服务收益" src="@/assets/home/服务收益.png">
+            </div>
+            <div class="ecological-rights-support-card">
+              <img alt="软件销售收益" src="@/assets/home/销售收益.png">
+              <div class="content">
+                <div class="title"><span></span><img alt="软件销售收益" src="@/assets/home/销售收益.png">软件销售收益
+                </div>
+                <div class="text">
+                  积极推广图观引擎并成交可获相应收益，当然，图观团队会为您提供全面的技术和营销支持，以帮助您顺利开展销售推广工作。
+                </div>
+              </div>
+            </div>
+            <div class="ecological-rights-support-card">
+              <div class="content">
+                <div class="title"><span></span><img alt="项目承接收益" src="@/assets/home/承接收益.png">项目承接收益
+                </div>
+                <div class="text">
+                  我们可为生态合作伙伴提供商机资源和充足利润空间，帮助伙伴迅速打开市场；合作伙伴也可快速积累经验和提高技能，为未来的业务发展提供强有力的支持。
+                </div>
+              </div>
+              <img alt="项目承接收益" src="@/assets/home/承接收益.png">
+            </div>
+            <div class="ecological-rights-support-card">
+              <img alt="交易佣金分润" src="@/assets/home/佣金收益.png">
+              <div class="content">
+                <div class="title"><span></span><img alt="交易佣金分润" src="@/assets/home/佣金收益.png">交易佣金分润
+                </div>
+                <div class="text">与我们携手，共同拓展数字孪生市场，引荐客户或推荐项目商机并成交订单，实现共赢。</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="franchise-process-container">
+      <div class="intelligent-container">
+        <div class="tg-modular-default-title">加盟流程</div>
+        <span class="tg-title-bottom-line"></span>
+        <div class="franchise-process-wrap">
+          <div class="franchise-process-card">
+            <img alt="图观注册" src="@/assets/home/流程01_注册.png">
+            <div class="franchise-process-card-text"><span>01</span>图观注册</div>
+            <img alt="" class="franchise-process-arrow-img" src="@/assets/home/流程00_箭头.png">
+          </div>
+          <div class="franchise-process-card">
+            <img alt="加盟申请" src="@/assets/home/流程02_申请.png">
+            <div class="franchise-process-card-text"><span>02 </span>加盟申请</div>
+            <img alt="" class="franchise-process-arrow-img" src="@/assets/home/流程00_箭头.png">
+          </div>
+          <div class="franchise-process-card">
+            <img alt="能力审核" src="@/assets/home/流程03_审核.png">
+            <div class="franchise-process-card-text"><span>03 </span>能力审核</div>
+            <img alt="" class="franchise-process-arrow-img" src="@/assets/home/流程00_箭头.png">
+          </div>
+          <div class="franchise-process-card">
+            <img alt="技能培训" src="@/assets/home/流程04_培训.png">
+            <div class="franchise-process-card-text"><span>04 </span>技能培训</div>
+            <img alt="" class="franchise-process-arrow-img" src="@/assets/home/流程00_箭头.png">
+          </div>
+          <div class="franchise-process-card">
+            <img alt="加盟签约" src="@/assets/home/流程05_签约.png">
+            <div class="franchise-process-card-text"><span>05 </span>加盟签约</div>
+            <img alt="" class="franchise-process-arrow-img" src="@/assets/home/流程00_箭头.png">
+          </div>
+          <div class="franchise-process-card">
+            <img alt="开展合作" src="@/assets/home/流程06_合作.png">
+            <div class="franchise-process-card-text"><span>06 </span>开展合作</div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="section2">
       <div class="container">
         <div class="stitle">你要找哪种合伙人？</div>
@@ -544,18 +781,18 @@
         </div>
       </div>
     </div>
-    <div class="section8">
-      <div class="stitle">来投融界，助您打通行业人脉</div>
-      <div class="container">
-        <ul class="clearfix">
-          <li v-for="(item,index) in mainData4" :key="index">
-            <img :src="item.img">
-            <div class="w">{{ item.text }}</div>
-          </li>
+    <!--    <div class="section8">-->
+    <!--      <div class="stitle">来投融界，助您打通行业人脉</div>-->
+    <!--      <div class="container">-->
+    <!--        <ul class="clearfix">-->
+    <!--          <li v-for="(item,index) in mainData4" :key="index">-->
+    <!--            <img :src="item.img">-->
+    <!--            <div class="w">{{ item.text }}</div>-->
+    <!--          </li>-->
 
-        </ul>
-      </div>
-    </div>
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--    </div>-->
     <div class="a2">
       <div class="list1">
         <ul>
@@ -864,6 +1101,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -990,6 +1228,25 @@ export default {
     },
     getsub(id) {
       this.subId = id
+    },
+    scrollToSection(id) {
+      if (id === 1) {
+        const element = document.getElementById("intelligent-vision-mission");
+        element.scrollIntoView({behavior: 'smooth'});
+      } else if (id === 2) {
+        const element = document.getElementById("intelligent-developer-journey");
+        element.scrollIntoView({behavior: 'smooth'});
+      } else if (id === 3) {
+        const element = document.getElementById("intelligent-developer-rights");
+        element.scrollIntoView({behavior: 'smooth'});
+      } else if (id === 4) {
+        const element = document.getElementById("fff");
+        element.scrollIntoView({behavior: 'smooth'});
+      } else if (id === 5) {
+        const element = document.getElementById("franchise-process-container");
+        element.scrollIntoView({behavior: 'smooth'});
+      }
+
     }
   }
 }
@@ -3004,4 +3261,483 @@ export default {
 
   }
 }
+
+.tg-product-banner-menu-container {
+  width: 100%;
+  height: 55px;
+  box-shadow: 0px 1px 6px 0px rgb(23, 35, 61, 75%);
+  margin-bottom: 10px;
+  background-color: #fff;
+
+  .tg-product-banner-menu-wrap {
+    width: 1352px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* line-height: 55px; */
+    .banner-title {
+      width: 25%;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .banner-menu-list {
+      width: 75%;
+      /* height: 100%; */
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      /* margin-left: 3%; */
+      li {
+        width: 25%;
+        /* width: 18%; */
+        /* height: 100%; */
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #dcdfe1;
+        list-style: none;
+
+        .active {
+          border-bottom: 2px solid #0097eb;
+        }
+
+        .banner-menu-item {
+          height: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+#intelligent-vision-mission {
+  max-width: 3840px;
+  /* padding-bottom: 20px; */
+  background-image: url('@/assets/home/生态伙伴bg.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 auto;
+  background-position: top;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-default-title-content {
+      /* width: 1014px; */
+      width: 100%;
+      font-size: 16px;
+      color: #515a6e;
+      text-align: center;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+      padding-bottom: 35px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .ecological-partner {
+      padding-bottom: 75px;
+    }
+
+    .ecological-partner-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 30px;
+
+      .ecological-partner-card {
+        position: relative;
+        padding: 65px 30px 20px;
+        border-radius: 4px;
+        background-image: linear-gradient(-180deg, rgba(66, 142, 255, 0.35) 0, rgba(70, 145, 255, 0) 100%);
+
+        img {
+          position: absolute;
+          top: -62px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .ecological-partner-card-title {
+          text-align: center;
+          font-size: 22px;
+          font-weight: 700;
+          color: #082543;
+          margin-bottom: 20px;
+        }
+
+        .ecological-partner-card-text {
+          font-size: 16px;
+          font-weight: normal;
+          color: #111a31;
+        }
+      }
+    }
+  }
+}
+
+#intelligent-developer-journey {
+  margin-bottom: 60px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .join-advantage {
+      padding-bottom: 40px;
+    }
+
+    .join-advantage-wrap {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 30px;
+
+      hr {
+        display: none;
+      }
+
+      .join-advantage-card {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 7px 2px rgba(0, 65, 134, 0.2);
+        border-radius: 4px;
+        height: 200px;
+
+        .join-advantage-card-title-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 25px;
+          background-image: linear-gradient(90deg, rgba(66, 142, 255, 0.35) 0, rgba(70, 145, 255, 0) 100%);
+
+          .title {
+            font-size: 22px;
+            color: #082543;
+            font-weight: 700;
+          }
+        }
+
+        .join-advantage-card-content {
+          padding: 10px 25px;
+          text-align: justify;
+          color: #111a31;
+        }
+      }
+    }
+  }
+}
+
+#intelligent-developer-rights {
+  padding-bottom: 60px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .tg-modular-sub-title {
+      font-size: 30px;
+      color: #1d7ce1;
+      text-align: center;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .ecological-rights-support-wrap {
+      max-width: 1314px;
+      min-height: 626px;
+      margin: 0 auto;
+      background-image: url('@/assets/home/权益bg01.png'), url('@/assets/home/权益bg02.png');
+      background-position: center, center;
+      background-repeat: no-repeat;
+
+      .ecological-rights-support-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 210px 396px;
+        padding-top: 90px;
+
+        .ecological-rights-support-card {
+          display: flex;
+          /* width: 35%; */
+          .content {
+            .title {
+              display: flex;
+              align-items: center;
+              font-size: 22px;
+              color: #10939f;
+
+              span {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 4px;
+                background-color: currentColor;
+                margin-right: 20px;
+              }
+
+              img {
+                display: none;
+              }
+            }
+
+            .text {
+              font-size: 16px;
+              color: #111a31;
+            }
+          }
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#franchise-process-container {
+  padding-bottom: 100px;
+
+  .intelligent-container {
+    max-width: 1314px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    .tg-modular-default-title {
+      /* width: 500px; */
+      font-size: 30px;
+      color: #17233d;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 16px;
+      font-weight: 700;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      margin: 0 auto;
+    }
+
+    .tg-title-bottom-line {
+      background-color: #1177e3;
+      display: block;
+      width: 110px;
+      height: 4px;
+      margin: 0 auto 39px;
+    }
+
+    .franchise-process-wrap {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+
+      .franchise-process-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
+        border-right: solid 2px #c2e1ff50;
+        background-image: linear-gradient(-180deg, rgba(66, 142, 255, 0.1) 0, rgba(70, 145, 255, 0) 100%);
+
+        img {
+          /* width: 90px; */
+          margin-bottom: 5px;
+        }
+
+        .franchise-process-card-text {
+          font-size: 22px;
+          font-weight: 700;
+          color: #1177e3;
+
+          span {
+            display: none;
+          }
+        }
+
+        .franchise-process-arrow-img {
+          position: absolute;
+          right: -18px;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+  }
+}
+
+#product-banner {
+  width: 100%;
+  height: 645px;
+  background-color: #fff;
+  position: relative;
+
+  .stream-server-box {
+    //max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background: url('@/assets/home/生态加盟-banner.jpg') no-repeat center / cover;
+    display: flex;
+    justify-content: space-evenly;
+
+    .banner-container {
+      width: auto;
+      margin: 0;
+      padding-top: 120px;
+
+      .title {
+        font-family: 'Microsoft YaHei';
+        font-size: 54px;
+        /* font-size: 46px; */
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 0px 2px 6px #000000;
+        margin-left: 20px;
+      }
+
+      .sub-title {
+        font-family: 'Microsoft YaHei';
+        font-size: 36px;
+        color: #ffffff;
+        text-shadow: 0px 2px 6px #000000;
+        margin-left: 20px;
+      }
+
+      p {
+        width: 650px;
+        background-color: rgb(0 0 0 / 20%);
+        color: #ffffff;
+        font-size: 16px;
+        text-shadow: 0px 2px 6px #000000;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0px;
+        padding: 20px;
+        background-color: rgb(0 0 0 / 60%);
+        margin: 30px 0;
+        /* background: url(/img/industry/smart-weather/banner_bg.png) repeat; */
+        backdrop-filter: blur(5px);
+        text-align: justify;
+      }
+    }
+
+    .banner-video-container {
+      width: 568px;
+      max-height: 321px;
+      background-color: black;
+      position: relative;
+      margin-top: 120px;
+      border: 3px solid;
+      border-image: linear-gradient(to bottom, #73ffff, #01a4d9) 1;
+
+      .banner-video-img-wrap {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+}
+
 </style>
